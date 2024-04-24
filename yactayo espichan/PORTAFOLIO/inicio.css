@@ -1,0 +1,110 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(250, 248, 215);
+}
+
+header {
+    background-color: #e4bfda;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: fixed; /* Establece la posición fija */
+    width: 100%; /* Ocupa todo el ancho de la ventana */
+    top: 0; /* Fija la barra de navegación en la parte superior */
+    z-index: 1000; /* Asegura que la barra de navegación esté por encima de otros elementos */
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container {
+    width: 600px;
+    margin: auto;
+}
+
+.proyecto {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #db94c4;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Estilo para la imagen separadora */
+.separador-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    position: relative; /* Establece la posición relativa para que los elementos absolutamente posicionados se ajusten a este */
+    opacity: 0.7; /* Cambia la opacidad de la imagen (0.7 es un valor de ejemplo, ajusta según sea necesario) */
+}
+
+.texto-superpuesto {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 0, 0);
+    font-size: 36px; /* Aumenta el tamaño del texto a 36px */
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold; /* Aplica negrita al texto */
+    padding: 10px; /* Añade relleno de 10px alrededor del texto */
+    text-shadow: -1px -1px 0 #fff,  
+    1px -1px 0 #fff,
+   -1px 1px 0 #fff,
+    1px 1px 0 #fff;
+}
+
+
+.contact-info {
+    display: flex;
+    align-items: center;
+}
+
+.contact-image {
+    margin-right: 20px; /* Ajusta el margen según lo necesites */
+}
+
+.contact-image img {
+    max-width: 50px; /* Ajusta el tamaño máximo de la imagen según lo necesites */
+}
+
+.contact-text {
+    flex: 1;
+}
+.imagen-container{
+    width: 600px;
+    margin: auto;
+}
+p{
+    color: #000000;
+}
+h2{
+    color: #000000;
+}
+h1{
+    color: rgb(255, 255, 255);
+}
